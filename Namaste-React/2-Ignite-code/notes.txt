@@ -1,0 +1,30 @@
+- there are two types of dependencies
+- dev - development;
+- normal - production;
+
+- D flag : dev dependencies;
+- caret and tilde;
+^2.4.6 -minor upgrade: parcel automatically upgrades the versions , safe to put caret;
+~ - 2.3.4 - major verison upgrade like 3.0.1 released; automatically
+
+- we only install parcel and so many files comes inside node_modules so parcel as a project needs its own dependencies and that sub dependencies needs their own dependencies and so on 
+- this is knows as transitive dependencies;
+
+- node_modules is a collection of dependencies that is required to run the project;
+- import React from 'react'; means importing react from node modules in our project;
+
+# parcel
+- Dev build;
+- local server;
+- HMR - hot module replacement - sync with browser , reading and updating;
+- file watching algorithm - written in c++;
+- caching for faster build;
+- caching everything you do in the project;
+- optimization and maintains the stability;
+- minification for production builds;
+- compressing;
+- consistant hashing;
+- code splitting
+- differential bundeling; - will be hosted , compatible to older browsers;
+- Error suggestions;
+- Tree shaking algorithm - parcel unused code from the tree and then execution;
