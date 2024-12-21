@@ -1,0 +1,37 @@
+# JS Basics
+- even for simple calcualation browser had to sent request to server then server used to sent the request;
+- Netscape first browser;
+- marc Anderssen asked brenden iech and he created JS;
+- first name was mocha then live script then Js;
+- then mircosoft has launched internet explorer, and took live script and created Jscript;
+- then Netscape people went to ECMA its an organization that sets rules for a language;
+- then ECMAscript ES 1 to ES8
+- chrome came in 2008 and named v8 engine it was fast and js was running properly on chrome;
+- Rayn dal - took v8 engine and created node js which could run on servers;
+- node js also uses v8 engine;
+
+
+
+- console.log(3-4+5) - first subtransaction then addion happen; or put in bracket;
+- same for division and multiplication what will first encountered from left to right;
+  will execute;
+
+DataTypes in Js;
+- Primitive;
+- No Primitive;
+
+- Primitive has 7 DataTypes;
+  - number
+  - string;
+  - boolean
+  - undefined;
+  - null;
+  - bigInt;
+  - symbol;
+
+- Non Primitive has 1 only
+  - Object further classified as functions and arrays;
+
+#Execution context;
+- Memory creation phase; Memory will be allocated to variables with undefined values or funcitons as it its;
+- code execution phase;
