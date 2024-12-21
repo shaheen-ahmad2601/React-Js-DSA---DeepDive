@@ -1,0 +1,19 @@
+# lets deep dive into react;
+- react is fun;
+- what is CDN
+- what is cross origin;
+- React.createElement it take 3 arguments
+  - element, attributes, content;
+- react element is nothing but a simple js object
+- React.createElement is from react but jsx makes easy writing in react;
+- creatElement Api takes 3 arguments
+
+
+# A content delivery network (CDN) is a network of servers that deliver web content to users based on their location. CDNs use a process called caching to store copies of files in data centers around the world, so that users can access content from a server closer to them. This reduces the distance data has to travel, which results in faster page load times and a better user experience
+
+
+# Cross-origin refers to a mechanism that allows web applications to interact with resources in different domains
+- An HTTP-header based mechanism that allows a server to indicate which origins a browser can load resources from. CORS allows client browsers to check with third-party servers before transferring data.
+
+- file will be executed line by line in order left to right 
+top to bottom;
